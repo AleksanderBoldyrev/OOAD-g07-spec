@@ -1,0 +1,24 @@
+@@Use Case Subfunction icrash.usecases.subfunctions.oeLogin hidden
+@description
+"goal is to request authorization to request access secured system operations.
+"
+@parameter icrash.usecases.subfunctions.oeLogin.AdtLogin ""
+@parameter icrash.usecases.subfunctions.oeLogin.AdtPassword ""
+@parameter icrash.usecases.subfunctions.oeLogin.AdtCapcha ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

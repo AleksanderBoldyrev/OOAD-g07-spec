@@ -1,0 +1,10 @@
+/*
+@author Asus
+@date Tue Nov 08 23:52:19 AST 2016
+*/
+
+
+@@view operation-scope-ctHuman-init
+@model Operation icrash.concepts.primarytypes.classes.ctHuman.init 
+@description ""
+@caption ""
