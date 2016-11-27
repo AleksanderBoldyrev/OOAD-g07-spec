@@ -462,6 +462,10 @@
   <semanticResources>dtCapcha.msr</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/dtCapcha.msr</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtCapcha.msr</semanticResources>
+  <semanticResources>concepts/documentation/Operation-etCoordinatorType-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Enumeration-etCoordinatorType.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtCapcha-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtCapcha.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_X0EtsPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

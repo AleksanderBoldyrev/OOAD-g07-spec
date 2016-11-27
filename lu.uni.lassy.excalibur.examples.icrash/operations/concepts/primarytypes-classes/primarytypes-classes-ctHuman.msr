@@ -18,7 +18,6 @@ let Self:ctHuman in
 Self.id = Aid
 and Self.kind = Akind
 
-/* Post F02 */
 and (Self.oclIsNew and self = Self)
 )
 then (result = true)

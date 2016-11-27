@@ -99,8 +99,10 @@ import lu.uni.lassy.messir.libraries.calendar
 					extends ctAuthenticated{
 			
 				attribute id:dtCoordinatorID
+				attribute type:etCoordinatorType
 				
 				operation init(
+										Aet:etCoordinatorType ,
 										Aid:dtCoordinatorID ,
 										Alogin:dtLogin ,
 										Apwd:dtPassword ):ptBoolean

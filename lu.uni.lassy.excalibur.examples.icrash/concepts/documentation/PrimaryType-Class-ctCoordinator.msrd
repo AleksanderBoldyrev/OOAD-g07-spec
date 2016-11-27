@@ -6,6 +6,9 @@
 @attribute icrash.concepts.primarytypes.classes.ctCoordinator.id
 "a unique identification information."
 
+@attribute icrash.concepts.primarytypes.classes.ctCoordinator.type
+"a type of Coordinator"
+
 @endAttributes
 
 @operation icrash.concepts.primarytypes.classes.ctCoordinator.init

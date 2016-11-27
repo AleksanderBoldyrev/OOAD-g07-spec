@@ -1,0 +1,7 @@
+@@Primary Type Enumeration icrash.concepts.primarytypes.datatypes.etCoordinatorType
+@description 
+"enum type for choosing a type of Coordinator - Coordinator of a Hospital"
+@operation
+icrash.concepts.primarytypes.datatypes.etCoordinatorType.is
+""
+@endOperations
