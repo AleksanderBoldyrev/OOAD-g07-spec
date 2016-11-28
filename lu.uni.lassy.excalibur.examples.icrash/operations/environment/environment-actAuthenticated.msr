@@ -10,7 +10,7 @@ import icrash.environment
 
 Operation Model {
 
-operation: actAuthenticated.outactAuthenticated.oeLogin(AdtCapcha:dtCapcha, AdtLogin:dtLogin, AdtPassword:dtPassword):ptBoolean
+operation: actAuthenticated.outactAuthenticated.oeLogin(AdtCapcha:dtCapcha, AdtLogin:dtLogin, AdtPassword:dtPassword):ptBoolean  //new code (cap)
 {
 preP{
   let TheSystem: ctState in

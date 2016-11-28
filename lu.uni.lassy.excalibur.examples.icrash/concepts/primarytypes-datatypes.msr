@@ -59,11 +59,11 @@ import lu.uni.lassy.messir.libraries.calendar
 				constants["witness", "victim", "anonymous"]
 				operation is():ptBoolean
 			}
-			enum etCoordinatorType {
+			enum etCoordinatorType { //new code (hosp)
 				constants["normal", "hospital"]
 				operation is():ptBoolean
 			}
-			datatype dtCapcha {
+			datatype dtCapcha { //new code (cap)
 				operation is():ptBoolean
 			}
 		}

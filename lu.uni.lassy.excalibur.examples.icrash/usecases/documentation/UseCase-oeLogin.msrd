@@ -4,7 +4,7 @@
 "
 @parameter icrash.usecases.subfunctions.oeLogin.AdtLogin ""
 @parameter icrash.usecases.subfunctions.oeLogin.AdtPassword ""
-@parameter icrash.usecases.subfunctions.oeLogin.AdtCapcha ""
+@parameter icrash.usecases.subfunctions.oeLogin.AdtCapcha "" //new code (cap)
 @endParameters
 @protocolCondition
 "

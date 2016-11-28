@@ -5,7 +5,7 @@ icrash.environment.actAuthenticated.outactAuthenticated.oeLogin
 "first information used to determine accessibility rights for the actual actor."
 @parameter icrash.environment.actAuthenticated.outactAuthenticated.oeLogin.AdtPassword
 "second information used to determine accessibility rights for the actual actor."
-@parameter icrash.environment.actAuthenticated.outactAuthenticated.oeLogin.AdtCapcha
+@parameter icrash.environment.actAuthenticated.outactAuthenticated.oeLogin.AdtCapcha //new code (cap)
 "fird information used to indentify user as a human"
 @endParameters
 @description

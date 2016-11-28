@@ -1,9 +1,4 @@
-/*
-@author Asus
-@date Mon Nov 14 20:17:26 AST 2016
-*/
-
-
+//new code (cap)
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtCapcha
 @description 
 " a capcha used to authentify an user"

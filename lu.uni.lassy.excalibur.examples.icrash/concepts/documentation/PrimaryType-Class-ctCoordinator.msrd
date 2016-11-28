@@ -6,8 +6,8 @@
 @attribute icrash.concepts.primarytypes.classes.ctCoordinator.id
 "a unique identification information."
 
-@attribute icrash.concepts.primarytypes.classes.ctCoordinator.type
-"a type of Coordinator"
+@attribute icrash.concepts.primarytypes.classes.ctCoordinator.type //new code (hosp)
+"a type of Coordinator. Hospitals have fewer available methods"
 
 @endAttributes
 

@@ -5,7 +5,7 @@ icrash.concepts.primarytypes.classes.ctAuthenticated.init
 "used to initialize the login field"
 @parameter icrash.concepts.primarytypes.classes.ctAuthenticated.init.Apwd
 "used to initialize the password field"
-@parameter icrash.concepts.primarytypes.classes.ctAuthenticated.init.Acapcha
+@parameter icrash.concepts.primarytypes.classes.ctAuthenticated.init.Acapcha //new code (cap)
 "used to initialize the capcha field"
 @endParameters
 @description

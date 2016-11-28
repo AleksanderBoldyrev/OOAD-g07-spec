@@ -86,9 +86,9 @@ import lu.uni.lassy.messir.libraries.calendar
 				attribute login:dtLogin
 				attribute pwd: dtPassword
 				attribute vpIsLogged:ptBoolean
-				attribute capcha:dtCapcha
+				attribute capcha:dtCapcha //new code (cap)
 				operation init(	
-										Acapcha:dtCapcha ,
+										Acapcha:dtCapcha , //new code (cap)
 										Alogin:dtLogin ,
 										Apwd:dtPassword ):ptBoolean
 			}
@@ -99,10 +99,10 @@ import lu.uni.lassy.messir.libraries.calendar
 					extends ctAuthenticated{
 			
 				attribute id:dtCoordinatorID
-				attribute type:etCoordinatorType
+				attribute type:etCoordinatorType //new code (hosp)
 				
 				operation init(
-										Aet:etCoordinatorType ,
+										Aet:etCoordinatorType , //new code (hosp)
 										Aid:dtCoordinatorID ,
 										Alogin:dtLogin ,
 										Apwd:dtPassword ):ptBoolean

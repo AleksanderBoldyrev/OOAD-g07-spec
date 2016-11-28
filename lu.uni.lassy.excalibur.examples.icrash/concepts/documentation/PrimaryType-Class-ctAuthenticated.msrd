@@ -12,7 +12,7 @@
 @attribute icrash.concepts.primarytypes.classes.ctAuthenticated.vpIsLogged
 "used to determine the access status."
 
-@attribute icrash.concepts.primarytypes.classes.ctAuthenticated.capcha
+@attribute icrash.concepts.primarytypes.classes.ctAuthenticated.capcha //new code (cap)
 "used to identify user."
 
 @endAttributes
