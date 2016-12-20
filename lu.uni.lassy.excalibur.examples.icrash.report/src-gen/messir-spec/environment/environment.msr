@@ -30,6 +30,7 @@ import lu.uni.lassy.messir.libraries.calendar
 			output interface outactAdministrator{
 				
 				operation oeAddCoordinator(
+											AetCoordinatorType:etCoordinatorType ,//new code (hosp)
 											AdtCoordinatorID:dtCoordinatorID ,
 											AdtLogin:dtLogin , 
 											AdtPassword:dtPassword ):ptBoolean
@@ -79,6 +80,32 @@ import lu.uni.lassy.messir.libraries.calendar
 	 		}
 		}
 		
+		actor actHospital 
+						role rnactHospital 
+						cardinality [0..*] 
+						extends actAuthenticated{
+
+			operation init():ptBoolean
+
+			output interface outactHospital{
+				operation oeCloseCrisis(AdtCrisisID:dtCrisisID ):ptBoolean
+				operation oeGetCrisisSet(AetCrisisStatus:etCrisisStatus ):ptBoolean
+				operation oeSetCrisisHandler(AdtCrisisID:dtCrisisID ):ptBoolean
+				operation oeSetCrisisStatus(
+											AdtCrisisID:dtCrisisID ,
+											AetCrisisStatus:etCrisisStatus 
+											):ptBoolean
+				operation oeSetCrisisType(
+                                          AdtCrisisID:dtCrisisID ,
+                                          AetCrisisType:etCrisisType
+                                          ):ptBoolean
+			}
+			
+			input interface inactHospital{
+				operation ieSendACrisis(ActCrisis:ctCrisis ):ptBoolean
+	 		}
+		}
+		
 		actor actComCompany role rnactComCompany cardinality [0..*]{
 
 			operation init():ptBoolean
@@ -106,7 +133,7 @@ import lu.uni.lassy.messir.libraries.calendar
 			operation init():ptBoolean
 
 			output interface outactAuthenticated{
-				operation oeLogin(AdtCapcha:dtCapcha, AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean
+				operation oeLogin(AdtCapcha:dtCapcha, AdtLogin:dtLogin , AdtPassword:dtPassword ):ptBoolean //new code (cap)
 				operation oeLogout():ptBoolean
 			}
 			

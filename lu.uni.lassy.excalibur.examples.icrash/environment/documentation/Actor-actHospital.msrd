@@ -1,0 +1,36 @@
+//new code (hosp)
+
+@@Actor icrash.environment.actHospital
+@description "Represents actor that is responsible for handling those crisises, that are connected to medical injuries."
+@operation icrash.environment.actHospital.init
+""
+@endOperations
+//input events
+
+@inputEvent
+icrash.environment.actHospital.inactHospital.ieSendACrisis
+"allows for receiving a requested ctCrisis instance."
+
+@endInputEvents
+//output events
+
+@outputEvent
+icrash.environment.actHospital.outactHospital.oeCloseCrisis
+"sent to indicate that a crisis should be considered as closed."
+
+@outputEvent
+icrash.environment.actHospital.outactHospital.oeGetCrisisSet
+"sent to request all the ctCrisis instances having a specific status."
+@outputEvent
+icrash.environment.actHospital.outactHospital.oeSetCrisisHandler
+"sent to declare himself as been the handler of a crisis having the specified id."
+
+@outputEvent
+icrash.environment.actHospital.outactHospital.oeSetCrisisStatus
+"sent to define the handling status of a specific crisis."
+@outputEvent
+icrash.environment.actHospital.outactHospital.oeSetCrisisType
+"sent to define the gravity type of a specific crisis."
+
+
+@endOutputEvents

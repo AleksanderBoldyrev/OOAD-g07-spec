@@ -7,6 +7,12 @@ icrash.environment.actAuthenticated.outactAuthenticated.oeLogin
 "second information used to determine accessibility rights for the actual actor."
 @parameter icrash.environment.actAuthenticated.outactAuthenticated.oeLogin.AdtCapcha //new code (cap)
 "fird information used to indentify user as a human"
+@parameter icrash.operations.environment.actAuthenticated.operationmodel.actAuthenticated.outactAuthenticated.oeLogin.AdtCapcha
+" "
+@parameter icrash.operations.environment.actAuthenticated.operationmodel.actAuthenticated.outactAuthenticated.oeLogin.AdtLogin
+" "
+@parameter icrash.operations.environment.actAuthenticated.operationmodel.actAuthenticated.outactAuthenticated.oeLogin.AdtPassword
+" "
 @endParameters
 @description
 "sent to request authorization to request access secured system operations."

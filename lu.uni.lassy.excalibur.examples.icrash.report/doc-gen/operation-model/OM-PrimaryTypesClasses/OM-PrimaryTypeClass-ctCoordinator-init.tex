@@ -13,6 +13,11 @@ The \msrcode{init} operation has the following properties:
 	\addnumbereddoublerow{}{Aid: dtCoordinatorID}{used to initialize the id field} 
 	\addnumbereddoublerow{}{Alogin: dtLogin}{used to initialize the login field} 
 	\addnumbereddoublerow{}{Apwd: dtPassword}{used to initialize the password field} 
+	\addnumbereddoublerow{}{Aet: etCoordinatorType}{used to choose a type of Coordinator} 
+	\addnumbereddoublerow{}{Aet: etCoordinatorType}{ } 
+	\addnumbereddoublerow{}{Aid: dtCoordinatorID}{ } 
+	\addnumbereddoublerow{}{Alogin: dtLogin}{ } 
+	\addnumbereddoublerow{}{Apwd: dtPassword}{ } 
 
 	\addrowheading{Return type}
 	\addsinglerow{ptBoolean}
@@ -47,6 +52,7 @@ The \msrcode{init} operation has the following properties:
 	Self.id = Aid
 	and Self.login = Alogin
 	and Self.pwd = Apwd
+	and Self.type = Aet //new code (hosp)
 	and Self.vpIsLogged = false
 	/* Post F02 */
 	and (Self.oclIsNew and self = Self)

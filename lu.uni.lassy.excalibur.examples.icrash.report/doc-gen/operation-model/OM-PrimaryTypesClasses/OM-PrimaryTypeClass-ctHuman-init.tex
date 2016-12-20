@@ -12,6 +12,8 @@ The \msrcode{init} operation has the following properties:
 	\addrowheading{Parameters}
 	\addnumbereddoublerow{}{Aid: dtPhoneNumber}{used to initialize the id field} 
 	\addnumbereddoublerow{}{Akind: etHumanKind}{used to initialize the kind field} 
+	\addnumbereddoublerow{}{Aid: dtPhoneNumber}{ } 
+	\addnumbereddoublerow{}{Akind: etHumanKind}{ } 
 
 	\addrowheading{Return type}
 	\addsinglerow{ptBoolean}
@@ -47,7 +49,6 @@ The \msrcode{init} operation has the following properties:
 	Self.id = Aid
 	and Self.kind = Akind
 	
-	/* Post F02 */
 	and (Self.oclIsNew and self = Self)
 	)
 	then (result = true)

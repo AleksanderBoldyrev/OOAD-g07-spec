@@ -1,0 +1,41 @@
+\subsection{\msrcode{actHospital} Actor}
+
+
+\begin{actortable}
+	\addheading{Actor}
+	
+	\adddoublerow{actHospital}{Represents actor that is responsible for handling those crisises, that are connected to medical injuries.}
+	
+	\addrowheading{Extends}
+	\addsinglerow{icrash.environment.actAuthenticated}
+	
+	
+	
+	
+	\addrowheading{Operations}
+	\adddoublerow{\msrcode{init():ptBoolean}}{}
+	
+	
+
+	\addrowheading{OutputInterfaces}
+	\addnumbereddoublerow{OUT}{\hypertarget{actHospital.outactHospital.oeCloseCrisis}
+			{\msrcode{oeCloseCrisis(AdtCrisisID:dtCrisisID):ptBoolean}}}
+			{sent to indicate that a crisis should be considered as closed.}
+	\addnumbereddoublerow{OUT}{\hypertarget{actHospital.outactHospital.oeGetCrisisSet}
+			{\msrcode{oeGetCrisisSet(AetCrisisStatus:etCrisisStatus):ptBoolean}}}
+			{sent to request all the ctCrisis instances having a specific status.}
+	\addnumbereddoublerow{OUT}{\hypertarget{actHospital.outactHospital.oeSetCrisisHandler}
+			{\msrcode{oeSetCrisisHandler(AdtCrisisID:dtCrisisID):ptBoolean}}}
+			{sent to declare himself as been the handler of a crisis having the specified id.}
+	\addnumbereddoublerow{OUT}{\hypertarget{actHospital.outactHospital.oeSetCrisisStatus}
+			{\msrcode{oeSetCrisisStatus(AdtCrisisID:dtCrisisID, AetCrisisStatus:etCrisisStatus):ptBoolean}}}
+			{sent to define the handling status of a specific crisis.}
+	\addnumbereddoublerow{OUT}{\hypertarget{actHospital.outactHospital.oeSetCrisisType}
+			{\msrcode{oeSetCrisisType(AdtCrisisID:dtCrisisID, AetCrisisType:etCrisisType):ptBoolean}}}
+			{sent to define the gravity type of a specific crisis.}
+	
+	\addrowheading{InputInterfaces}
+	\addnumbereddoublerow{IN}{\msrcode{ieSendACrisis(ActCrisis:ctCrisis):ptBoolean}}
+							 {allows for receiving a requested ctCrisis instance.}
+	
+\end{actortable}

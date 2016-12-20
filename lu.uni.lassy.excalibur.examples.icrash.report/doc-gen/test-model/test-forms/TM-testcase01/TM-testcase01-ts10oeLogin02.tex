@@ -22,12 +22,19 @@
 		\addrowheading{Variables}
 		\addnumbereddoublerow{V}{TheActor:actCoordinator}
 		{an actCoordinator actor as subtype of actAuthenticated can send oeLogin messages to the system.}
+		\addnumbereddoublerow{V}{AdtLogin:icrash.concepts.primarytypes.datatypes.dtLogin}
+		{ }
+		\addnumbereddoublerow{V}{AdtPassword:icrash.concepts.primarytypes.datatypes.dtPassword}
+		{ }
 
 		\addrowheading{Constraints}
 		\addnumberedsinglerow{C}{TheActor is any \msrcode{actAdministrator} instance existing in the environment. It is thus expected that there exist at least one.}
 		\addnumberedsinglerow{C}{AdtLogin has its value attribute equal to the primitive string 'icrashadmin' (which is the correct administrator login known by the system after the step one.)}
 		\addnumberedsinglerow{C}{AdtPassword has its value attribute equal to the primitive string '7WXC1359' (which is the correct administrator password known by the system after the step one.)}
 
+		\addrowheading{Oracle Variables}
+		\addnumbereddoublerow{OV}{AMessage:lu.uni.lassy.messir.libraries.primitives.ptString}
+			{ }
 
 		\addrowheading{Oracle Constraints}
 		\addnumberedsinglerow{OC}{the \msrcode{AMessage} value is expected to be equal to the primitive string 'You are logged ! Welcome ...'}

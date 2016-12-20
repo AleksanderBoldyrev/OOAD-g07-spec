@@ -22,6 +22,18 @@
 		\addrowheading{Variables}
 		\addnumbereddoublerow{V}{TheActor:actComCompany}
 		{actComCompany actors transfer alert declaration messages.}
+		\addnumbereddoublerow{V}{AetHumanKind:icrash.concepts.primarytypes.datatypes.etHumanKind}
+		{ }
+		\addnumbereddoublerow{V}{AdtDate:lu.uni.lassy.messir.libraries.calendar.dtDate}
+		{ }
+		\addnumbereddoublerow{V}{AdtTime:lu.uni.lassy.messir.libraries.calendar.dtTime}
+		{ }
+		\addnumbereddoublerow{V}{AdtPhoneNumber:icrash.concepts.primarytypes.datatypes.dtPhoneNumber}
+		{ }
+		\addnumbereddoublerow{V}{AdtGPSLocation:icrash.concepts.primarytypes.datatypes.dtGPSLocation}
+		{ }
+		\addnumbereddoublerow{V}{AdtComment:icrash.concepts.primarytypes.datatypes.dtComment}
+		{ }
 
 		\addrowheading{Constraints}
 		\addnumberedsinglerow{C}{TheActor is any instance existing in the current environment status. It is expected to exist at least one.}
@@ -32,6 +44,9 @@
 		\addnumberedsinglerow{C}{AdtGPSLocation is equal to (49.627675 , 6.159590).}
 		\addnumberedsinglerow{C}{AdtComment is equal to '3 cars involved in an accident.'}
 
+		\addrowheading{Oracle Variables}
+		\addnumbereddoublerow{OV}{AdtSMS:icrash.concepts.secondarytypes.datatypes.dtSMS}
+			{ }
 
 		\addrowheading{Oracle Constraints}
 		\addnumberedsinglerow{OC}{AdtSMS is equal to the ptString 'Your alert has been registered. We will handle it and keep you informed'.}

@@ -16,7 +16,7 @@ let Self:ctCoordinator in
 Self.id = Aid
 and Self.login = Alogin
 and Self.pwd = Apwd
-and Self.type = Aet
+and Self.type = Aet //new code (hosp)
 and Self.vpIsLogged = false
 /* Post F02 */
 and (Self.oclIsNew and self = Self)

@@ -451,6 +451,22 @@
   <semanticResources>concepts/documentation/Operation-dtCapcha-is.msrd</semanticResources>
   <semanticResources>concepts/documentation/PrimaryType-Datatype-dtCapcha.msrd</semanticResources>
   <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-etCoordinatorType.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actAdministrator-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actCoordinator-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actComCompany-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actAuthenticated-init.msr</semanticResources>
+  <semanticResources>operations/environment/environment-actActivator-init.msr</semanticResources>
+  <semanticResources>environment/documentation/Actor-actHospital.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-init.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeInvalidateAlert.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeCloseCrisis.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeGetAlertsSet.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeGetCrisisSet.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeSetCrisisHandler.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeReportOnCrisis.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeSetCrisisStatus.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeSetCrisisType.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actHospital-outactHospital-oeValidateAlert.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_UmILAPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

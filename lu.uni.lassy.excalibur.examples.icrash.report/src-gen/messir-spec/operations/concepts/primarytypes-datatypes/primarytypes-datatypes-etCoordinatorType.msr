@@ -1,0 +1,24 @@
+//new code (hosp)
+
+package icrash.operations.concepts.primarytypes.datatypes.etCoordinatorType {
+
+import lu.uni.lassy.messir.libraries.primitives
+
+
+Operation Model {
+	operation: icrash.concepts.primarytypes.datatypes.etCoordinatorType.is():ptBoolean{
+    postF{ 
+        let TheResult: ptBoolean in
+        ( if
+          ( self = normal
+            or self = hospital
+          )
+          then (TheResult = true)
+          else (TheResult = false)
+          endif
+          result = TheResult
+        )
+    }
+}
+}
+}

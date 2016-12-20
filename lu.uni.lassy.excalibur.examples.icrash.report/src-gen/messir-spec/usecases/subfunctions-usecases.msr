@@ -14,7 +14,7 @@ import icrash.environment
   Use Case Model {
     
 //----------------------------------------------------
-  use case system subfunction oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword){
+  use case system subfunction oeAddCoordinator(AdtCoordinatorID:dtCoordinatorID, AdtLogin:dtLogin, AdtPassword:dtPassword, AetCoordinatorType:etCoordinatorType){ //new code (hosp)
     actor actAdministrator[primary,active]
     returned messages {
       ieCoordinatorAdded() returned to actAdministrator
@@ -87,7 +87,7 @@ import icrash.environment
     }
   }    
 //----------------------------------------------------
-  use case system subfunction oeLogin(AdtCapcha:dtCapcha, AdtLogin:dtLogin , AdtPassword:dtPassword) {
+  use case system subfunction oeLogin(AdtCapcha:dtCapcha, AdtLogin:dtLogin , AdtPassword:dtPassword) {//new code (cap)
     actor actAuthenticated[primary,active]
     returned messages {
       ieMessage(AMessage) returned to actAuthenticated
